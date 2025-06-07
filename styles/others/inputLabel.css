@@ -1,0 +1,18 @@
+.terms-group {
+    margin: 0 -13px 8px;
+    font-size: 14px;
+    width: 30em;
+}
+.terms-group label{
+    font-size: 16.5px;
+}
+
+.terms-group input {
+    margin: 0 8px;
+    width: 15px;
+    height: 15px;
+    display: inline;
+}
+.terms-group a{
+    color: #fff;
+}

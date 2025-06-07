@@ -1,0 +1,201 @@
+body {
+    font-family: "Poppins", sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../../images/background/background.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh;
+}
+.step-indicator {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.step {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    position: relative;
+}
+
+.step.active {
+    background-color: #ffcccc;
+    color: #d9534f;
+}
+
+.cart-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+#form-container {
+    width: 90%;
+    max-width: 1500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: -58px;
+}
+#form-container input , #form-container select{
+    width: 100%;
+    padding: 11px;
+}
+#form-container select{
+    position: relative;
+    top: -7px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+    color: #333;
+    text-align: left;
+}
+
+.shipping-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.shipping-method {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    width: 250px;
+    transition: background-color 0.3s;
+}
+
+.shipping-method:hover {
+    background-color: #f1f1f1;
+}
+
+.shipping-info {
+    display: flex;
+    align-items: center;
+}
+
+.shipping-logo {
+    width: 80px;
+    height: auto;
+    border-radius: 6px;
+    margin-right: 12px;
+}
+
+.shipping-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.shipping-price {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+.shipping-date {
+    font-size: 0.9em;
+    color: #777;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-top: 5px;
+}
+
+select { 
+    background-color: #f9f9f9;
+    outline: none;
+}
+
+.row {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap; /* Wrap items if there's not enough space */
+}
+
+.input-container {
+    flex: 1;
+    min-width: 240px; /* Ensures inputs don't shrink too much */
+    margin-bottom: 15px; /* Space between fields */
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 15px;
+    background-color:#3d1a9a;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.shipping-info.current {
+/* background:rgb(249, 249, 249); */
+/* border-radius: 80%; */
+font-weight: 800;
+}
+
+/* Make form responsive */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .input-container {
+        width: 100%; /* Full width on small screens */
+        margin-bottom: 10px; /* Adds spacing between fields */
+    }
+}

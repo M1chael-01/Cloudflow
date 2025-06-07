@@ -1,0 +1,306 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.control .one-control:nth-child(1) button,.control .one-control:nth-child(2) button:hover{
+  
+}
+.control .one-control:nth-child(1) button:hover{
+    background: #532bb6;;
+    padding: 12px 24px;
+    border: none;
+    color: #ffffff;
+}
+.control .one-control i{
+    position: relative;
+    font-weight: 800;
+    left: 30px;
+    top: 2px;
+    font-size: 25px;
+}
+
+.info{
+    display: flex;
+}
+
+.info .one-info{
+    background: #532bb6;
+    margin: 40px 10px;
+    padding: 40px 20px 40px;
+}
+
+
+
+.arrrow a{
+    position: absolute;
+    right: 20%;
+}
+
+
+.home {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 70vh;
+    z-index: 1;
+}
+
+.home img {
+    width: 75%;
+    height: 100%;
+    margin: 100px auto;
+    display: block;
+    border-radius: 60px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 0;
+}
+
+.home .overlay {
+    position: absolute;
+    top: 46%;
+    left: 34%;
+    transform: translate(-55%, -50%);
+    color: white;
+    z-index: 2;
+}
+
+.home .overlay h2 {
+    font-size: 58px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: 660px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+}
+
+.home .overlay h2 span {
+    color: #FFC700;
+}
+
+.home .overlay p {
+    font-size: 24px;
+    font-weight: 300;
+    width: 700px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.home .overlay button {
+    transition: none;
+    background: #FFC700;
+    padding: 8px 24px;
+    font-weight: 400;
+    font-size: 19px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 340px;
+    border: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  
+    .home img {
+        width: 80%;
+        height: 500px;
+        /* height: auto; */
+        /* margin: 50px auto */
+    }
+
+    .home .overlay {
+        top: -10%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .home .overlay h2 {
+        font-size: 48px;
+        width: 90%;
+    }
+
+    .home .overlay p {
+        font-size: 22px;
+        width: 90%;
+    }
+
+    .home .overlay button {
+        width: 280px;
+        font-size: 18px;
+    }
+    .overlay{
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .home {
+        height: 60vh;
+    }
+
+    .home img {
+        width: 100%;
+        height:400px;
+    }
+
+    .home .overlay {
+        top: 40%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .home .overlay h2 {
+        font-size: 40px;
+        line-height: 60px;
+        width: 90%;
+    }
+
+    .home .overlay p {
+        font-size: 20px;
+        width: 85%;
+    }
+
+    .home .overlay button {
+        width: 280px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .home {
+        height: 50vh;
+    }
+
+    .home img {
+        width: 90%;
+        height: auto;
+        margin: 30px auto;
+    }
+
+    .home .overlay {
+        top: 40%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .home .overlay h2 {
+        font-size: 32px;
+        line-height: 45px;
+        width: 90%;
+    }
+
+    .home .overlay p {
+        font-size: 18px;
+        width: 85%;
+    }
+
+    .home .overlay button {
+        width: 250px;
+        font-size: 15px;
+    }
+}
+
+
+
+
+/* ResponzivnĂ­ design */
+@media (max-width: 768px) {
+    .home {
+        grid-template-columns: 1fr;
+        padding: 3%;
+    }
+
+    .home h1 {
+        font-size: 28px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+}
+
+
+footer {
+    background-color: #532bb6;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    width: 150px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin: 10px 0;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-socials ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-socials li {
+    margin: 10px 0;
+}
+
+.footer-socials i {
+    margin-right: 8px;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+
+@media(max-width:1740px) {
+    .home .overlay h2{
+        font-size: 49px;
+        line-height: 55px;
+    }
+    .home .overlay p{
+            font-size: 18px;
+            width: 60%;
+    }
+  
+}

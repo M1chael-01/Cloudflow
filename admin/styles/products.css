@@ -1,0 +1,175 @@
+/* General styles */
+body {
+    background: url("../../images/background/background.jpg") no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+}
+
+header {
+    display: none;
+}
+
+/* Adjust container position */
+.container {
+    animation: slideUp 0.55s ease-in-out; /* Apply slideUp animation */
+    width: 100%;
+    margin: 0 auto; /* Center content */
+    padding: 20px;
+    max-width: 1500px; /* You can control the max-width if you need it */
+    display: block;
+}
+
+@media(min-width:2000px) {
+    .container {
+        max-width: 2000px;
+    }
+}
+
+/* Center the content */
+.content {
+    margin-top: 20px;
+    margin-left: 0;
+}
+
+/* Grid container */
+.row {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping */
+    gap: 20px; /* Gap between items */
+    justify-content: center; /* Center items horizontally */
+}
+
+.item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px; /* Adjust width of each item */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center; /* Center text inside the item */
+}
+
+/* Center the image inside the .item */
+.item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    height: 150px;
+}
+
+/* Controls for the items */
+.controls {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.controls button {
+    padding: 14px 2px 14px;
+    margin: 5px 6px 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    width: 66px;
+    font-size: 15px;
+}
+
+.controls#first button {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.controls button i {
+    font-size: 22px;
+}
+
+.btn-warning, .btn-create {
+    background-color: #3f2b96;
+    color: white;
+    width: 100px;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    background-color: #3d1a9a;
+    color: white;
+    padding: 10px 15px;
+    width: 90px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+#next, #pre {
+    width: 140px;
+}
+
+.pagination a.active {
+    background-color: #ffa726;
+}
+
+.pagination a:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .item {
+        /* width: calc(33.33% - 20px); 3 items per row on medium screens */
+    }
+}
+
+@media (max-width: 992px) {
+    .item {
+        /* width: calc(50% - 20px); 2 items per row on smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .item {
+        /* width: 100%; 1 item per row on very small screens */
+    }
+}
+
+/* Center the large plus image */
+#plus {
+    text-align: center;
+    font-size: 171.1px;
+    cursor: pointer;
+}
+
+/* Optional: For pagination styling */
+.pagination a.active {
+    background-color: #ffa726;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(140px); /* Start slightly below */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Slide to original position */
+    }
+}

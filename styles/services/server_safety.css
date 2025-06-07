@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.server {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+    background-attachment: fixed;
+    transition: background-position 0.3s ease-in-out;
+}
+
+.server::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+    transition: background 0.3s ease-in-out;
+}
+
+.server main {
+    position: relative;
+    color: white;
+    z-index: 2;
+    max-width: 800px;
+    padding: 20px;
+    margin: 0 40px;
+}
+.server h2,
+.server h3,
+.server p,
+.cta-button {
+    opacity: 0;
+    animation: swipeInLeft 0.7s forwards ease-out;
+}
+.server h2 {
+    font-size: 55px;
+    margin-bottom: 6px;
+    font-weight: bold;
+    line-height: 70px;
+    animation-delay: 0.5s;
+    width: 80%;
+
+}
+
+.server h3 {
+ 
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    animation-delay: 0.4s;
+}
+
+.server p {
+    font-size: 19px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+   position: relative;
+   top: 8px;
+    animation-delay: 0.6s;
+}
+
+.cta-button {
+    background-color: #5830bb;
+    font-weight: 400;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    animation-delay: 0.3s;
+}
+
+ /* Animation for swipe-in from left */
+ @keyframes swipeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Form styles */
+.contact-form {
+    border: 6px solid rgb(245, 245, 246);
+    background:rgb(255, 255, 255);;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: 40px auto;
+    box-shadow: 0px 10px 30px rgba(248, 247, 247, 0.8);
+    opacity: 0;
+    transform: translateY(20px);
+    animation: formAppear 1s forwards 0.5s;
+    margin-bottom: 40px;
+}
+
+#step-2 input, #step-2 textarea, #step-3 input{
+    width: 50%;
+    display: inline;
+    margin: 0 10px;
+}
+
+#step-2 .names, #step-3 .form-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#step-2 textarea{
+    width: 50%;
+    margin: 12px auto;
+    display: block;
+    margin-bottom: 40px;
+}
+
+.contact-form h3 {
+    text-align: center;
+    font-size: 32px;
+    margin: 0 0 14px;
+}
+
+/* Animation for form appearance */
+@keyframes formAppear {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+  /* Sliding animation for the text */
+/* Animation for swipe-in from left */
+@keyframes swipeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form button,#btn {
+    background-color: #5830bb;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 7px auto;
+    display: block;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Progress Bar */
+.progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.progress-bar span {
+    display: block;
+    height: 10px;
+    background-color: #5830bb;
+    border-radius: 20px;
+    width: 33%;
+}
+
+.total-price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.info-link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.info-link a {
+    font-size: 16px;
+    color: #5830bb;
+    text-decoration: none;
+}
+
+.info-link a:hover {
+    text-decoration: underline;
+}
+
+
+.checkbox-group input {
+    margin: 0 10px;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 10px;
+}
+
+.checkbox-group label {
+    font-size: 16px;
+    line-height: 16px;
+    cursor: pointer;
+    position: relative;
+    top: 7px;
+}
+.contact-form iframe{
+    width: 80%;
+    height: 280px;
+    margin: 9px auto;
+    margin-bottom: 10px;
+    display: block;
+
+}
+
+#cta button{
+    width: 190px;
+    padding: 6.8px 7px 8px;
+    position: relative;
+    left: -10px;
+}
+
+#btn{
+    width:500px;
+}
+#cta input{
+    padding: 8px;
+    width: 550px;
+    font-size: 17px;
+}
+footer{
+    position: relative;
+}
+textarea{
+    height: 80px;
+}
+#step-4 img{
+    width:400px;
+    height: 400px;
+}
+#check div{
+    margin: 10px;
+}
+#check h4{
+    font-size: 22px;
+}
+
+ #image{
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 400px;
+ }
+
+ select{
+    margin-top: 6px;
+    outline: none;
+}
+@media(max-width:570px) {
+    .contact-form button, #btn {    
+        width: 95%;
+    }
+}
+@media(max-width:680px) {
+    #hading{
+        width: 100%;
+    }
+}

@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("../../images/background/background.jpg") no-repeat center center/cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Improved font */
+}
+
+.container {
+    max-width: 1400px;
+    background: rgba(255, 255, 255, 0.8);
+    
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+    justify-content: center; 
+    align-items: center; 
+    padding: 30px;
+}
+
+.product-image {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-image img {
+    width: 650px;
+    height: 340px;
+}
+
+.product-details {
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-details h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: 700;
+    color: #e67e22;
+    /* color: #FFC700; */
+    /* border-bottom: 2px solid #000000; */
+    /* padding: 6spx; */
+    margin-bottom: 9px;
+}
+
+.description {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 4px;
+}
+
+.properties {
+    margin-top: 1px;
+}
+
+.properties h3 {
+    font-size: 20px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.properties dl {
+    display: flex;
+    width: 500px;
+    flex-flow:wrap;
+/*     grid-template-columns: auto 1fr; */
+    row-gap: 10px;
+    column-gap: 10px;
+    font-size: 16px;
+    color: #333;
+}
+/*  */
+
+.properties dt {
+    font-weight: bold;
+    color: #666;
+}
+
+.properties dd {
+    margin: 0;
+    color: #333;
+}
+
+#btn {
+    display: inline-block;
+    background-color: #3d1a9a;
+    color: white;
+    padding: 12px 20px;
+    width: 320px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+.error-message {
+    color: #a94442;
+    border-radius: 4px;
+    padding: 15px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#show-more {
+    background: none;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.quantity-select {
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 5px;
+    width: 100px;
+    outline: none;
+}
+#quantity{
+    width: 140px;
+    padding: 4px 10px;
+    outline: none;
+    margin: 0 10px;
+}
+.float{
+    margin-top: 10px;
+}
+.description{
+    line-height: 27px;
+}
+#arrow{
+    font-size: 40px;
+    cursor: pointer;
+    border: 2px solid #333;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.count div{
+    font-size: 55px;
+}
+.count div:nth-child(3) {
+    color: red;
+}
+<div class="count">
+<div>.</div>
+<div>.</div>
+<div>.</div>
+<div>.</div>

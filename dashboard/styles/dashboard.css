@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+.sidebar {
+    background-color: #3d1a9a;
+    color: #fff;
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* position: fixed; */
+    /* height: 100vh; */
+}
+
+.sidebar img {
+    height: 90px;
+    margin-bottom: 15px;
+}
+
+.sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: background-color 0.3s;
+}
+
+.sidebar a i {
+    font-size: 20px;
+}
+
+.sidebar .active, .sidebar a.links:hover , .sidebar #logout {
+    background: #ffffff;
+    color: #333;
+}
+.sidebar #logout{
+   
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.header-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.header-bar button {
+    background-color: #1a73e8;
+    color: #fff;
+    border: none;
+    padding: 30px 30px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.header-bar button:hover {
+    background-color: #135ab3;
+    transform: translateY(-3px);
+}
+
+.filter-bar {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.filter-bar select, .filter-bar input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.storage-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.storage-text {
+    font-size: 16px;
+    color: #333;
+}
+
+.progress-container {
+    width: 60%;
+    background-color: #ddd;
+    border-radius: 25px;
+    height: 10px;
+}
+
+.progress-bar {
+    height: 10px;
+    background-color: #1a73e8;
+    width: <?=min($progress, 100)?>%;
+    border-radius: 25px;
+    transition: width 0.5s ease;
+}
+
+.file-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.file-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.file-card:hover {
+    transform: translateY(-5px);
+}
+
+.file-card i {
+    font-size: 40px;
+    color: #1a73e8;
+    margin-bottom: 10px;
+}
+
+.file-card h3 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.file-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+.create-folder-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    display: none;
+    margin-bottom: 20px;
+}
+
+.create-folder-form input,
+.create-folder-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.create-folder-form button {
+    background-color: #1a73e8;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.create-folder-form button:hover {
+    background-color: #135ab3;
+}
+
+header{
+    display: none;
+}
+
+
+
+/* The modal background */
+.folder-modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: add a dim background */
+    text-align: center;
+    padding-top: 50px; /* Optional, will center content vertically */
+}
+
+/* Modal content box */
+.folder-modal-content {
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: 5% auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the text */
+    position: absolute;
+    left: 52%;
+    top: 35%; /* Center vertically */
+    transform: translate(-50%, -50%); /* Correct centering */
+}
+
+/* Heading inside the modal */
+.folder-modal h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+/* Input field styles */
+.folder-modal input {
+    padding: 8px;
+    width: 100%;
+    max-width: 450px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 16px;
+}
+
+/* Button inside the modal */
+.folder-modal button {
+    background-color: #1a73e8;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    max-width: 450px;
+}
+
+/* Close button */
+.close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* General styling for folder grid */
+.folder-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Automatically fill space with 250px columns */
+    gap: 20px; /* Space between grid items */
+    padding: 20px;
+    justify-items: center; /* Center the items inside each grid cell */
+}
+
+/* Folder and file card styling */
+.folder-card, .file-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+    max-width: 250px;
+    width: 100%;
+}
+
+/* Hover effect for folder and file cards */
+.folder-card:hover, .file-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Folder and file image styling */
+.file-image {
+    width: 80px; /* Limit the width of the images/icons */
+    margin-bottom: 10px;
+}
+
+/* Folder icon styling */
+.folder-card i {
+    font-size: 90px;
+    color: #4CAF50; /* Folder icon color */
+    margin-bottom: 10px;
+}
+
+/* Folder and file name styling */
+.folder-card h3, .file-card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+}
+
+/* File size styling */
+.file-card h4 {
+    font-size: 14px;
+    color: #666;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Make the grid responsive */
+@media (max-width: 768px) {
+    .folder-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+
+    .folder-card, .file-card {
+        width: 200px; /* Make cards smaller on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .folder-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+
+    .folder-card, .file-card {
+        width: 150px;
+    }
+}

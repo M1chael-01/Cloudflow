@@ -1,0 +1,253 @@
+body {
+    background: url("../../images/background/background.jpg") no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+}
+
+/* Container for the Form */
+.container {
+    animation: slideUp 0.55s ease-in-out; 
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px 30px 0px;
+    width:900px;
+    max-width: 100%;
+    position: relative;
+    left: 65px;
+}
+
+/* Heading Styling */
+h2 {
+    color: #333;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Form Element Styling */
+.faq-form {
+    margin-bottom: 30px;
+}
+
+.faq-form label {
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.faq-form input,
+.faq-form textarea,
+.faq-form select {
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 12px;
+    font-size: 1rem;
+    width: 100%;
+    transition: border-color 0.3s ease;
+    outline: none;
+}
+
+.faq-form input:focus,
+.faq-form textarea:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.faq-form button {
+    background-color:#3f2b96;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 auto;
+    display: block;
+    width: 270px;
+    margin-bottom: 0;
+}
+
+.faq-form .btn:hover {
+    background-color: #0056b3;
+}
+
+/* FAQ Entry Styling */
+.faq-entry {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+/* Button for Next FAQ */
+.btn-next {
+    background-color: #28a745;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.btn-next:hover {
+    background-color: #218838;
+}
+
+/* Centered Text for Navigation */
+.text-center {
+    text-align: center;
+}
+
+/* Align title and icon inputs next to each other */
+.faq-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.faq-header h4 {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #555;
+}
+
+.faq-header .icon {
+    margin-right: 10px;
+}
+
+/* Flexbox for inputs side by side */
+.input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-group .form-control {
+    flex: 1;
+}
+
+.control button{
+    width: 300px;
+}
+header{
+    display: none;
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+    .container {
+        padding: 20px;
+    }
+
+    .faq-form label {
+        font-size: 0.9rem;
+    }
+
+    .faq-form input,
+    .faq-form textarea {
+        font-size: 0.9rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h4 {
+        font-size: 1.1rem;
+    }
+
+    .faq-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .input-group {
+        flex-direction: column;
+    }
+}
+
+.faq-form select {
+    display: block;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+#btn button{
+    /* width:30px; */
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 14px;
+    transition: background-color 0.3s ease;
+    /* background: #e7b60c */
+}
+
+.count{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+}
+.count div{
+    font-size: 15px;
+    margin: 0 4px 10px;
+}
+.count div.current{
+    background: #3f2b96;
+}
+#save{
+/* width: 100%; */
+}
+
+#delete{
+    background: red;
+}
+#next,#pre{
+    background: #0056b3;
+}
+
+/* Keyframes for the slideUp effect */
+@keyframes slideUp {
+from {
+    opacity: 0;
+    transform: translateY(30px); /* Start slightly below */
+}
+to {
+    opacity: 1;
+    transform: translateY(0); /* Slide to original position */
+}
+}
+.users-dot{
+cursor: pointer;
+}
+.users-dot a{
+text-decoration: none;
+color: #000000;
+}
+
+
+.input-group button{
+width: 320px;
+}

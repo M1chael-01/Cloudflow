@@ -1,0 +1,193 @@
+ /* Base Styles */
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url("../../images/background/background.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#confirmation-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 4px;
+    font-size: 32px;
+}
+
+.confirmation-message {
+    font-size: 18px;
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.user-details {
+    margin-bottom: 30px;
+}
+
+.user-details h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.user-details p {
+    font-size: 16px;
+    color: #555;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex img {
+    width: 300px;
+    height: 300px;
+    float: right;
+    position: relative;
+    top: -40px;
+}
+
+.email-info {
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #555;
+}
+
+.back-btn {
+    width: 40%;
+    padding: 10px;
+    background: #3d1a9a;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.back-btn#contact {
+    background: #FFC700;
+    color: #333;
+    font-weight: 500;
+}
+
+.back-btn:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    color: #888;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons a {
+    margin: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #confirmation-container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .confirmation-message {
+        font-size: 16px;
+    }
+
+    .user-details h2 {
+        font-size: 18px;
+    }
+
+    .user-details p {
+        font-size: 14px;
+    }
+
+    .flex {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .flex img {
+        width: 200px;
+        height: 200px;
+        top: 0;
+        margin-bottom: 20px;
+    }
+
+    .back-btn {
+        width: 60%;
+        font-size: 14px;
+    }
+
+    .email-info {
+        font-size: 14px;
+    }
+
+    .footer {
+        font-size: 12px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .confirmation-message {
+        font-size: 14px;
+    }
+
+    .user-details h2 {
+        font-size: 16px;
+    }
+
+    .user-details p {
+        font-size: 12px;
+    }
+
+    .back-btn {
+        width: 80%;
+        font-size: 12px;
+    }
+
+    .email-info {
+        font-size: 12px;
+    }
+}

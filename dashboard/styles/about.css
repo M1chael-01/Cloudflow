@@ -1,0 +1,127 @@
+ /* Global styles */
+ body {
+    font-family: 'Arial', sans-serif;
+    /* background-color: #f4f7fa; */
+    margin: 0;
+padding: 0;
+font-family: 'Poppins', sans-serif;
+background: url("../../images/background/background.jpg") no-repeat;
+background-size: cover;
+background-position: center;
+min-height: 100vh;
+    /* display: flex; */
+    /* min-height: 100vh; */
+    /* list-style: none; */
+}
+
+main {
+    animation: slideUp 0.55s ease-in-out;
+background-color: rgba(255, 255, 255, 0.9);
+border-radius: 8px;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+padding: 30px;
+margin: 70px auto;
+/* margin-bottom: 10px; */
+max-width: 1200px;
+height: 60vh;
+margin-top: 140px;
+overflow-y: auto;
+/* display: flex; */
+/* min-height: 100vh; */
+/* align-items: c; */
+/* position: relative; */
+}
+
+/* Section Title Styles */
+h2 {
+    font-size: 2.5rem;
+color: #2e6cb2;
+font-weight: bold;
+text-align: center;
+margin-bottom: 10px;
+line-height: 50px;
+}
+h3{
+    font-size: 1.8rem;
+color: #2e6cb2;
+margin-top: 30px;
+border-bottom: 2px solid #2e6cb2;
+padding-bottom: 10px;
+}
+p{
+  
+}
+
+/* Card styles */
+.card-body {
+    font-size: 1.1rem;
+    color: #34495E;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
+    margin-bottom: 30px;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #4CAF50;
+}
+
+.card-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.list-group-item {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.footer-logo {
+    width: 80px;
+}
+
+footer {
+    background-color: #2C3E50;
+    color: #ecf0f1;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-logo {
+    margin-top: 10px;
+}
+
+/* Hover Effects */
+.btn:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+
+
+#first-part p{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+    width: 85%;
+}
+#li{
+    list-style: none;
+}
+
+ul li {
+    margin: 10px 0 15px;
+  
+}
+#help{
+    width: 50%;
+    line-height: 40px;
+}

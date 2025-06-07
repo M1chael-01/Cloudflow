@@ -1,0 +1,28 @@
+/* Barvy definované jako CSS proměnné */
+:root {
+    /* Primární barvy */
+    --color-primary: #3d1a9a; /* Hlavní modrofialová */
+    --color-secondary: #532bb6; /* Tmavší odstín pro zvýraznění */
+    --color-accent: #ffa726; /* Oranžová pro akcenty */
+
+    /* Neutrální barvy */
+    --color-light: #ffffff; /* Bílá */
+    --color-dark: #333333; /* Tmavě šedá */
+    --color-muted: #666666; /* Neutrální šedá pro texty */
+    --color-border: #dddddd; /* Barva pro okraje a rámečky */
+
+    /* Pozadí */
+    --color-background-light: #f9f9f9; /* Světlé pozadí */
+    --color-background-dark: #1b1b1b; /* Tmavé pozadí */
+
+    /* Stavy (hover, aktivní, chyba) */
+    --color-hover: #005a9e; /* Barva při přejetí myší */
+    --color-active: #003d73; /* Barva při aktivním stavu */
+    --color-error: #e74c3c; /* Červená pro chybové stavy */
+
+    /* Barvy pro tlačítka */
+    --color-button-primary-bg: var(--color-primary);
+    --color-button-primary-text: var(--color-light);
+    --color-button-hover-bg: var(--color-secondary);
+    --color-button-hover-text: var(--color-light);
+}

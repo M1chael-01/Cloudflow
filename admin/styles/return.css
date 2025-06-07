@@ -1,0 +1,206 @@
+/* Base styles */
+body {
+    background: url("../../images/background/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    align-items:center;
+    justlify-content:center;
+    min-height:90vh;
+
+}
+header{
+    display: none;
+}
+
+.container {
+    animation: slideUp 0.55s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 1200px;
+    position: relative;
+    overflow-y:auto;
+    height: 60vh;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #2e6cb2;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    color: #2e6cb2;
+    margin-top: 30px;
+    border-bottom: 2px solid #2e6cb2;
+    padding-bottom: 10px;
+}
+
+.list,
+.steps-list {
+    margin-left: 20px;
+    font-size: 1rem;
+}
+
+.list li,
+.steps-list li {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.steps-list li {
+    padding-left: 20px;
+    position: relative;
+}
+
+.steps-list li::before {
+    content: "✔";
+    position: absolute;
+    left: -20px;
+    color: #2e6cb2;
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 0;
+}
+
+/* Admin-specific styling adjustments */
+ul li {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.footer-note {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Animation */
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive styles */
+
+/* For tablets and below (max-width 768px) */
+@media (max-width: 768px) {
+    .title {
+        font-size: 2rem;
+    }
+
+    .intro {
+        font-size: 1rem;
+        width: 90%; /* Adjust the width to fit better */
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .list li,
+    .steps-list li {
+        font-size: 0.95rem;
+        margin-bottom: 12px;
+    }
+
+    .container {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .footer-note {
+        font-size: 0.9rem;
+    }
+}
+
+/* For mobile devices (max-width 480px) */
+@media (max-width: 480px) {
+    .title {
+        font-size: 1.6rem;
+    }
+
+    .intro {
+        font-size: 0.95rem;
+        width: 100%; /* Full width for better readability */
+    }
+
+    .section-title {
+        font-size: 1.3rem;
+    }
+
+    .list li,
+    .steps-list li {
+        font-size: 0.9rem;
+        margin-bottom: 10px;
+    }
+
+    .container {
+        padding: 15px;
+        margin: 15px;
+    }
+
+    .footer-note {
+        font-size: 0.8rem;
+    }
+}
+
+/* For very small screens (max-width 360px) */
+@media (max-width: 360px) {
+    .title {
+        font-size: 1.4rem;
+    }
+
+    .intro {
+        font-size: 0.9rem;
+    }
+
+    .section-title {
+        font-size: 1.2rem;
+    }
+
+    .list li,
+    .steps-list li {
+        font-size: 0.85rem;
+    }
+
+    .container {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .footer-note {
+        font-size: 0.75rem;
+    }
+}

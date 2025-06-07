@@ -1,0 +1,74 @@
+main#reference {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 240px); 
+    margin-bottom:25px;
+}
+#reference-zakazniku {
+    padding: 35px 40px 40px;
+    background-color: #3d1a9a; 
+    text-align: center;
+    width: 80%;
+    margin: 120px auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#reference-zakazniku h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+#reference-zakazniku p.ref-info {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+.testimonials {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 0 20px;
+}
+.testimonial {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center; 
+    transition: transform 0.3s ease-in-out;
+}
+.testimonial:hover {
+    transform: translateY(-10px);
+}
+.testimonial-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%; 
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+.testimonial-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+.testimonial-author {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #532bb6;
+    font-style: italic;
+}
+@media(max-width:1740px) {
+    #reference-zakazniku{
+        width: 92%;
+    }
+}

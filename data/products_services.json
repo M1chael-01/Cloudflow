@@ -1,0 +1,351 @@
+{
+    "products": [
+        {
+            "name": "Kingston DataTraveler MicroDuo 3a",
+            "price": "600",
+            "category": "USB",
+            "description": "Flash disk 256 GB - USB 3.2 Gen 1 (USB 3.0), konektor USB-A a USB-C",
+            "more_info": "I kdy\u017e je dnes cloudov\u00e9 \u00falo\u017ei\u0161t\u011b snadno dostupn\u00e9, ne v\u017edy je mo\u017en\u00e9 p\u0159ipojit se k internetu. V t\u00e9to situaci se jako \u0159e\u0161en\u00ed nab\u00edz\u00ed flash disk Kingston. Poskytuje kapacitu 256 GB, kter\u00e1 je ur\u010dena t\u011bm nejn\u00e1ro\u010dn\u011bj\u0161\u00edm u\u017eivatel\u016fm. Dok\u00e1\u017ee obs\u00e1hnout celou kolekci film\u016f, hudby nebo ulo\u017e\u00ed va\u0161i sb\u00edrku fotografi\u00ed. Flash disk se k va\u0161emu za\u0159\u00edzen\u00ed p\u0159ipoj\u00ed p\u0159es konektor USB-A a USB-C s rozhran\u00edm USB 3.2 Gen 1 (USB 3.0). K ulo\u017een\u00ed 15GB Full HD filmu budete pot\u0159ebovat cca 3,5 minuty a pro p\u0159enos 1GB souboru posta\u010d\u00ed pouze 15 vte\u0159in. ",
+            "id": 3,
+            "properties": {
+                "Rychlost \u010dten\u00ed": "200 MB\/s",
+                "V\u00fdbava": " Krytka"
+            },
+            "image": ".\/images\/products\/1.jpg",
+            "images": [
+                ".\/images\/products\/1_copy1.jpg",
+                ".\/images\/products\/2.jpg"
+            ]
+        },
+        {
+            "name": "Xiaomi Mi Router 4C ",
+            "price": "400",
+            "category": "Router",
+            "description": "WiFi router - WiFi 4, standard 802.11\/b\/g\/n",
+            "more_info": "Wifi za\u0159\u00edzen\u00ed do kancel\u00e1\u0159e i do dom\u00e1cnosti, Xiaomi Mi Router 4C (White) pro v\u00e1s vytvo\u0159\u00ed s\u00ed\u0165 bezdr\u00e1tov\u00e9ho internetu pro p\u0159ipojen\u00ed mnoha za\u0159\u00edzen\u00ed ve va\u0161\u00ed dom\u00e1cnosti. Pracuje na b\u00e1zi WiFi 4, vys\u00edl\u00e1n\u00ed je typu tzv. Single-band, tedy jednop\u00e1smov\u00e9. Pou\u017e\u00edv\u00e1 4 extern\u00ed ant\u00e9ny. Rychlost bezdr\u00e1tov\u00e9ho p\u0159ipojen\u00ed je a\u017e 300 Mb\/s.",
+            "id": 5,
+            "properties": {
+                "Extern\u00edch ant\u00e9n": "4",
+                "Zabezpe\u010den\u00e1 s\u00ed\u0165 ": "Ano"
+            },
+            "image": ".\/images\/products\/11.png",
+            "images": [
+                ".\/images\/products\/11.png",
+                ".\/images\/products\/12.png"
+            ]
+        },
+        {
+            "name": "AlzaPower AluCore USB-A (M)",
+            "price": "280",
+            "category": "HUB",
+            "description": "USB Hub - SuperSpeed USB 5 Gb\/s, p\u0159ipojen\u00ed pomoc\u00ed 1\u00d7 USB-A (M)",
+            "more_info": "Pomoc\u00ed mal\u00e9ho a lehk\u00e9ho USB hubu AlzaPower AluCore jednodu\u0161e roz\u0161\u00ed\u0159\u00edte po\u010det konektor\u016f na sv\u00e9m po\u010d\u00edta\u010di \u010di notebooku s opera\u010dn\u00edmi syst\u00e9my MacOS nebo Windows \u2013 sta\u010d\u00ed v\u00e1m k tomu pouze jeden voln\u00fd USB-A port. R\u00e1zem tak z\u00edsk\u00e1te celkem \u010dty\u0159i USB-A 3.2 Gen 1 porty nav\u00edc. USB hub AlzaPower AluCore m\u016f\u017eete vyu\u017e\u00edt pro p\u0159ipojen\u00ed periferi\u00ed jako nap\u0159. kl\u00e1vesnice, my\u0161i, tisk\u00e1rny \u010di flashdisku, p\u0159\u00edpadn\u011b nouzov\u00e9 dob\u00edjen\u00ed drobn\u00e9 elektroniky. Kompatibilita je zaji\u0161t\u011bna i s mobiln\u00edmi telefony nebo tablety s Androidem, zde je mo\u017en\u00e9 do USB rozbo\u010dova\u010de AlzaPower AluCore p\u0159ipojit pouze flashdisk.",
+            "id": 6,
+            "properties": {
+                "Podpora": " Sync & Charge"
+            },
+            "image": ".\/images\/products\/APWHA04-01.png",
+            "images": [
+                ".\/images\/products\/10_copy2.png",
+                ".\/images\/products\/11_copy1.png",
+                ".\/images\/products\/12_copy1.png"
+            ]
+        },
+        {
+            "name": "Ubiquiti UniFi U7 Pro Max",
+            "price": "7279",
+            "category": "Router",
+            "description": "WiFi Access Point - tri-band (2,4 GHz 688 Mb\/s)",
+            "more_info": "Hodilo by se v\u00e1m doma nebo v kancel\u00e1\u0159i spolehliv\u00e9 bezdr\u00e1tov\u00e9 p\u0159ipojen\u00ed? WiFi access point Ubiquiti zajist\u00ed rychl\u00fd internet na ka\u017ed\u00e9m jednotliv\u00e9m za\u0159\u00edzen\u00ed. Prodlu\u017euje sign\u00e1l WiFi a d\u00edky tomu nedoch\u00e1z\u00ed p\u0159i p\u0159echodu mezi m\u00edstnostmi k jeho ztr\u00e1t\u011b. Vys\u00edl\u00e1 na t\u0159ech frekven\u010dn\u00edch p\u00e1smech 2,4 GHz, 5 GHz a 6 GHz, t\u00edm je dosa\u017eeno zv\u00fd\u0161en\u00e9 kapacity a v\u00fdkonu pro v\u00edce za\u0159\u00edzen\u00ed. P\u0159\u00edstupov\u00fd bod se hod\u00ed se do kancel\u00e1\u0159\u00ed, dom\u00e1cnost\u00ed nebo \u0161kol, kde pos\u00edl\u00ed bezdr\u00e1tov\u00e9 p\u0159ipojen\u00ed. Prost\u0159ednictv\u00edm WiFi dok\u00e1\u017ee p\u0159en\u00e1\u0161et 14988 Mb\/s, a tak nemus\u00edte m\u00edt obavy, \u017ee by p\u0159ipojen\u00ed nebylo dost rychl\u00e9. K zaji\u0161t\u011bn\u00ed bezpe\u010dn\u00e9ho p\u0159enosu dat slou\u017e\u00ed \u0161ifrov\u00e1n\u00ed WPA-PSK, WPA-Enterprise a WPA3. P\u0159\u00edstupov\u00fd bod Ubiquiti v\u00e1m zajist\u00ed spojen\u00ed s digit\u00e1ln\u00edm sv\u011btem.\r\n\r\n",
+            "id": 9,
+            "properties": {
+                "Rychlost WiFi p\u0159enosu": "14 988 Mb\/s",
+                "Standardy": " 802.11ac, 802.11ax, 802.11be, 802.11n"
+            },
+            "image": ".\/images\/products\/Ubiq24085-01.png",
+            "images": [
+                ".\/images\/products\/6.png",
+                ".\/images\/products\/7.png"
+            ]
+        },
+        {
+            "name": "SanDisk Ultra Dual GO 256GB USB-C",
+            "price": "700",
+            "category": "USB",
+            "description": "Flash disk 256 GB - USB 3.2 Gen 1 (USB 3.0), konektor USB-A a ",
+            "more_info": "I kdy\u017e je dnes na internetu mnoho cloudov\u00fdch \u00falo\u017ei\u0161\u0165, ne v\u0161echny informace chcete pustit do jejich \u00fatrob. V takov\u00e9m okam\u017eiku ocen\u00edte flash disk SanDisk. Poskytuje kapacitu 256 GB, kter\u00e1 uspokoj\u00ed i nejn\u00e1ro\u010dn\u011bj\u0161\u00ed u\u017eivatele. S takov\u00fdm \u00falo\u017en\u00fdm prostorem pojme celou kolekci film\u016f, hudby nebo ulo\u017e\u00ed va\u0161i sb\u00edrku fotografi\u00ed. Flash disk se k va\u0161emu p\u0159\u00edstroji p\u0159ipoj\u00ed prost\u0159ednictv\u00edm konektoru USB-A a USB-C s rozhran\u00edm USB 3.2 Gen 1 (USB 3.0). P\u0159i nahr\u00e1v\u00e1n\u00ed souboru budete m\u00edt k dispozici rychlost 150 MB\/s. Ulo\u017een\u00ed filmu o velikosti 15 GB ve Full HD kvalit\u011b v\u00e1m zabere kolem 3,5 minut a p\u0159enos souboru o velikosti 1 GB zvl\u00e1dnete za 15 vte\u0159in. P\u0159i \u010dten\u00ed soubor\u016f se rychlost pohybuje okolo 150 MB\/s. USB flash disk SanDisk dotv\u00e1\u0159\u00ed \u010dern\u00e1 barva. D\u00edky kompaktn\u00edm rozm\u011br\u016fm 12,1 \u00d7 44,4 \u00d7 8,6 mm (v\u00d7\u0161\u00d7d) jej snadno p\u0159em\u00edst\u00edte kamkoliv s sebou.",
+            "id": 10,
+            "properties": {
+                "Rozhran\u00ed:": "USB 3.2 Gen 1"
+            },
+            "image": ".\/images\/products\/DU051b5d-02.jpg",
+            "images": [
+                ".\/images\/products\/DU051b5d-02.jpg"
+            ]
+        },
+        {
+            "name": "Kingston FURY Renegade NVMe",
+            "price": "2169",
+            "category": "USB",
+            "description": "SSD disk M.2 (PCIe 4.0 4x NVMe), TLC (Triple-Level Cell), ",
+            "more_info": "Stav\u00edte nov\u00fd po\u010d\u00edta\u010d nebo upgradujete ten star\u00fd? Nebo pot\u0159ebujete roz\u0161\u00ed\u0159it \u00falo\u017ei\u0161t\u011b v hern\u00ed konzoli PlayStation 5? V tom p\u0159\u00edpad\u011b ocen\u00edte modern\u00ed M.2 disk Kingston Renegade NVMe s podporou tolik \u017e\u00e1dan\u00e9ho rozhran\u00ed PCIe 4.0. D\u00edky n\u011bmu toti\u017e z\u00edsk\u00e1te vysok\u00e9 p\u0159enosov\u00e9 rychlosti, kter\u00e9 se pozitivn\u011b projev\u00ed p\u0159i spou\u0161t\u011bn\u00ed PC, na\u010d\u00edt\u00e1n\u00ed slo\u017eit\u00fdch aplikac\u00ed nebo her a celkov\u011b se stane pr\u00e1ce s PC mnohem pohodln\u011bj\u0161\u00ed a rychlej\u0161\u00ed. Z\u00e1rove\u0148 tento typ disk\u016f zcela postr\u00e1d\u00e1 rotuj\u00edc\u00ed \u010d\u00e1sti, tak\u017ee poruchovost a s t\u00edm spojen\u00e1 ztr\u00e1ta dat se pohybuje na zcela minim\u00e1ln\u00ed hodnot\u011b.",
+            "id": 11,
+            "properties": {
+                "Typ \u00falo\u017ei\u0161t\u011b": " SSD",
+                "Pou\u017eit\u00ed": "Pou\u017eit\u00ed Do notebooku, Do po\u010d\u00edta\u010de, Intern\u00ed"
+            },
+            "image": ".\/images\/products\/1.jpeg",
+            "images": [
+                ".\/images\/products\/1_copy1.jpeg",
+                ".\/images\/products\/2.jpeg"
+            ]
+        },
+        {
+            "name": "Seasonic 12VHPWR Cable Black",
+            "price": "399",
+            "category": "Kabel",
+            "description": "Redukce PCIe 8-pin nap\u00e1jen\u00ed - propojovac\u00ed, rovn\u00e9 zakon\u010den\u00ed, ",
+            "more_info": "Redukce Seasonic umo\u017e\u0148uje propojen\u00ed dvou r\u016fzn\u00fdch typ\u016f rozhran\u00ed a zaru\u010duje jejich vz\u00e1jemnou kompatibilitu\r\nZprost\u0159edkuje bezprobl\u00e9movou komunikaci mezi va\u0161imi za\u0159\u00edzen\u00edmi\r\nP\u0159en\u00e1\u0161\u00ed nap\u00e1jec\u00ed sign\u00e1l\r\n2\u00d7 PCIe 8-pin nap\u00e1jen\u00ed male konektor\r\n1\u00d7 PCIe 16-pin nap\u00e1jen\u00ed male konektor\r\nBarva redukce Seasonic je \u010dern\u00e1\r\nS rovn\u00fdm zakon\u010den\u00edm se snadno p\u0159ipojuje k jin\u00fdm za\u0159\u00edzen\u00edm nebo port\u016fm\r\nS redukc\u00ed Seasonic s d\u00e9lkou 0,75 m spoj\u00edte za\u0159\u00edzen\u00ed bl\u00edzko sebe",
+            "id": 12,
+            "properties": {
+                "Male konektor - Po\u010det": " 2 \u00d7",
+                "D\u00e9lka kabelu": "0,75 m"
+            },
+            "image": ".\/images\/products\/4.png",
+            "images": [
+                ".\/images\/4.png",
+                ".\/images\/5.png",
+                ".\/images\/6.png"
+            ]
+        },
+        {
+            "name": "Apacer AS350 Panther 1TB",
+            "price": "1349",
+            "category": "SSD disk",
+            "description": "SSD disk 2.5\", SATA III, TLC (Triple-Level Cell)",
+            "more_info": "Mnoho lid\u00ed ho popisuje jako v\u00fdrazn\u00fd posun ve v\u00fdb\u011bru komponent\u016f p\u0159i stavb\u011b PC. SSD APACER pat\u0159\u00ed mezi komponenty, kter\u00e9 jednozna\u010dn\u011b zv\u00fd\u0161\u00ed efektivitu va\u0161eho PC nebo jin\u00e9ho za\u0159\u00edzen\u00ed. Model nazvan\u00fd Apacer AS350 Panther 1TB je ide\u00e1ln\u00ed prim\u00e1rn\u011b jako SSD do notebooku a po\u010d\u00edta\u010de s 2,5\" slotem na disk. Pro va\u0161e data je vymezena kapacita 1000 GB. Takovou kapacitu b\u011b\u017en\u00fd u\u017eivatel vyu\u017eije jako plnohodnotnou n\u00e1hradu b\u011b\u017en\u00fdch harddisk\u016f. Pro zapojen\u00ed tohoto SSD vyu\u017eijete rozhran\u00ed SATA III.",
+            "id": 13,
+            "properties": {
+                "Rychlost \u010dten\u00ed": " 560 MB\/s",
+                "Rychlost z\u00e1pisu": "540 MB\/s"
+            },
+            "image": ".\/images\/products\/11322-3_apa350b4.png",
+            "images": [
+                ".\/images\/products\/11322_apa350b4-03.png",
+                ".\/images\/products\/11322-3_apa350b4_copy1.png"
+            ]
+        },
+        {
+            "name": "Patriot VIPER VP4300 Lite 2TB",
+            "price": "3199",
+            "category": "SSD disk",
+            "description": "SSD disk M.2 (PCIe 4.0 4x NVMe), 3D NAND, ",
+            "more_info": "Mnoho u\u017eivatel\u016f ho ozna\u010duje jako malou revoluci ve v\u00fdb\u011bru komponent\u016f p\u0159i stavb\u011b PC. SSD disk Patriot pat\u0159\u00ed mezi komponenty, kter\u00e9 v\u00fdznamn\u011b ovlivn\u00ed na\u010d\u00edtac\u00ed \u010dasy v\u00e1\u0161eho PC nebo jin\u00e9ho notebooku. Model nazvan\u00fd Patriot VIPER VP4300 Lite 2TB je stvo\u0159en\u00fd jako SSD disk do notebooku nebo do po\u010d\u00edta\u010d\u016f vybaven\u00fdch konektorem M.2. Pro v\u00e1\u0161 opera\u010dn\u00ed syst\u00e9m \u010di data je p\u0159ipravena kapacita 2000 GB. Tato kapacita str\u010d\u00ed do kapsy klasick\u00e9 disky v datov\u00fdch centrech. SSD tohoto typu propoj\u00edte s PC p\u0159es konektor M.2 (PCIe 4.0 4x NVMe).",
+            "id": 14,
+            "properties": {
+                "Rychlost \u010dten\u00ed": " 7 400 MB\/s",
+                "Rychlost z\u00e1pisu": " 6 400 MB\/s"
+            },
+            "image": ".\/images\/products\/9.png",
+            "images": [
+                ".\/images\/products\/9.png",
+                ".\/images\/products\/10.png",
+                ".\/images\/products\/11.png"
+            ]
+        },
+        {
+            "name": "AlzaPower AluCore USB-C ",
+            "price": "349",
+            "category": "Kabel",
+            "description": "Datov\u00fd kabel - USB Hi-Speed 480 Mb\/s, Sync & Charge a\u017e 3A, 1x USB-C",
+            "more_info": "Tento kabel kone\u010dn\u011b vy\u0159e\u0161\u00ed v\u0161echny va\u0161e b\u011b\u017en\u00e9 probl\u00e9my s kabely. Neni\u010d\u00ed se, proto\u017ee d\u00edky speci\u00e1ln\u00ed konstrukci a nylonov\u00e9mu opletu vydr\u017e\u00ed a\u017e 12 000 ohyb\u016f konektoru. Snadno se p\u0159en\u00e1\u0161\u00ed d\u00edky stahovac\u00ed p\u00e1sce VelcroStrap+ a je ofici\u00e1ln\u011b certifikov\u00e1n pro pou\u017eit\u00ed s Apple za\u0159\u00edzen\u00edmi.",
+            "id": 15,
+            "properties": {
+                "Podpora": " Power Delivery 3.0, Sync & Charge",
+                "Typ": " Propojovac\u00ed kabel"
+            },
+            "image": ".\/images\/products\/12.png",
+            "images": [
+                ".\/images\/products\/12.png",
+                ".\/images\/products\/13.png",
+                ".\/images\/products\/14.png"
+            ]
+        },
+        {
+            "name": "AlzaPower USB-C (F) na Micro USB-B 2.0 (M)",
+            "price": "129",
+            "category": "USB",
+            "description": "Redukce v\u00fdstup Micro USB, vstup USB-C, USB Hi-Speed 480 Mb\/s, ",
+            "more_info": "Praktick\u00fd univerz\u00e1ln\u00ed adapt\u00e9r AlzaPower USB-C <-> microUSB v\u00e1m v mnoha ohledech usnadn\u00ed \u017eivot. Vyu\u017eijete jej v kombinaci s mobiln\u00edmi telefony, tablety a dal\u0161\u00edmi elektronick\u00fdmi za\u0159\u00edzen\u00ed. D\u00edky tomuto adapt\u00e9ru m\u016f\u017eete nap\u0159. nab\u00edjet USB-C nab\u00edje\u010dkou smartphone s microUSB konektorem.",
+            "id": 16,
+            "properties": {
+                "Typ": " Redukce",
+                "Podpora": " Sync & Charge",
+                "Zakon\u010den\u00ed": " Rovn\u00e9"
+            },
+            "image": ".\/images\/products\/15.png",
+            "images": [
+                ".\/images\/products\/15.png",
+                ".\/images\/products\/16.png",
+                ".\/images\/products\/17.png"
+            ]
+        },
+        {
+            "name": "TP-Link Archer A6",
+            "price": "910",
+            "category": "Router",
+            "description": "WiFi router - vnit\u0159n\u00ed WiFi 5, standard 802.11\/g\/n\/ac",
+            "more_info": "Dvoup\u00e1smov\u00e1 WiFi \u2013 867 Mb\/s v p\u00e1smu 5 GHz a 400 Mb\/s v p\u00e1smu 2,4 GHz\r\nTechnologie MU-MIMO umo\u017e\u0148uje sou\u010dasn\u00fd p\u0159enos dat do v\u00edce za\u0159\u00edzen\u00ed s vy\u0161\u0161\u00edm v\u00fdkonem\r\n\u010cty\u0159i extern\u00ed ant\u00e9ny s technologi\u00ed Beamforming \r\nPodporuje re\u017eim p\u0159\u00edstupov\u00e9ho bodu\r\nSnadn\u00e9 nastaven\u00ed pomoc\u00ed aplikace TP-Link Tether\r\nKompatibiln\u00ed s EasyMesh",
+            "id": 17,
+            "properties": {
+                "Typ WiFi": " WiFi 5",
+                "P\u00e1sma WiFi": " 2,4 GHz, 5 GHz"
+            },
+            "image": ".\/images\/products\/3.jpeg",
+            "images": [
+                ".\/images\/products\/4.jpeg",
+                ".\/images\/products\/5.jpeg"
+            ]
+        },
+        {
+            "name": "Ubiquiti UniFi AP 6 Mesh",
+            "price": "4990",
+            "category": "WiFi Access Point",
+            "description": "WiFi Access Point - WiFi 6, dual-band",
+            "more_info": "Je pro v\u00e1s kl\u00ed\u010dov\u00e9 pou\u017e\u00edvat kvalitn\u00ed bezdr\u00e1tov\u00e9 p\u0159ipojen\u00ed? WiFi access point Ubiquiti nab\u00edz\u00ed okam\u017eit\u00fd p\u0159\u00edstup na internet pro v\u0161echna jednotliv\u00e1 za\u0159\u00edzen\u00ed. Prodlu\u017euje WiFi sign\u00e1l, co\u017e zabra\u0148uje ztr\u00e1t\u011b spojen\u00ed p\u0159i pohybu mezi m\u00edstnostmi. Pou\u017e\u00edv\u00e1 dv\u011b frekven\u010dn\u00ed p\u00e1sma (2,4 a 5 GHz), a tak budete moci na jedno z nich p\u0159ipojit smart home za\u0159\u00edzen\u00ed a na druh\u00e9 ostatn\u00ed za\u0159\u00edzen\u00ed jako jsou mobiln\u00ed telefony, notebooky apod. P\u0159\u00edstupov\u00fd bod je vhodn\u00fd do kancel\u00e1\u0159\u00ed, dom\u00e1cnost\u00ed nebo \u0161kol, kde zlep\u0161\u00ed bezdr\u00e1tov\u00e9 p\u0159ipojen\u00ed. Prost\u0159ednictv\u00edm WiFi dok\u00e1\u017ee p\u0159en\u00e1\u0161et 4800 Mb\/s, a tak m\u016f\u017eete o\u010dek\u00e1vat dostate\u010dn\u011b rychl\u00e9 p\u0159ipojen\u00ed. K podporovan\u00fdm standard\u016fm pat\u0159\u00ed 802.11a, 802.11b, 802.11g, 802.11n, 802.11ac a 802.11ax, podporuje tak generaci WiFi 6. ",
+            "id": 18,
+            "properties": {
+                "P\u00e1sma WiFi": " 2,4 GHz, 5 GHz",
+                "Rychlost WiFi p\u0159enosu": " 4 800 Mb\/s"
+            },
+            "image": ".\/images\/products\/4.png",
+            "images": [
+                ".\/images\/products\/4.png",
+                ".\/images\/products\/5.png",
+                ".\/images\/products\/6.png"
+            ]
+        },
+        {
+            "name": "TP-Link TL-WR844N",
+            "price": "429",
+            "category": "Router",
+            "description": "WiFi router - WiFi 4, standard 802.11\/b\/g\/n,",
+            "more_info": "Z\u00e1kladn\u00ed WiFi router pro m\u00e9n\u011b n\u00e1ro\u010dn\u00e9 u\u017eivatele\r\nVelmi dobr\u00e9 pokryt\u00ed v\u010detn\u011b technologie MU-MIMO, kter\u00e1 obslou\u017e\u00ed v\u00edce za\u0159\u00edzen\u00ed sou\u010dasn\u011b\r\nRodi\u010dovsk\u00e1 kontrola pro spr\u00e1vu p\u0159ipojen\u00ed i za\u0159\u00edzen\u00ed, kter\u00e9 vyu\u017e\u00edvaj\u00ed d\u011bti\r\nSpr\u00e1vu s\u00edt\u011b m\u00e1te snadno pod p\u0159\u00edmou kontrolou d\u00edky aplikaci TP-Link Tether\r\nVhodn\u00fd pro streamov\u00e1n\u00ed HD videa\r\nMobiln\u00ed aplikace v \u010de\u0161tin\u011b a sloven\u0161tin\u011b",
+            "id": 19,
+            "properties": {
+                "P\u00e1sma WiFi": " 2,4 GHz",
+                "Funkce": " Extender, Klient, P\u0159\u00edstupov\u00fd bod (Access point), Router"
+            },
+            "image": ".\/images\/products\/7.png",
+            "images": [
+                ".\/images\/products\/7.png",
+                ".\/images\/products\/8.png",
+                ".\/images\/products\/9.png"
+            ]
+        },
+        {
+            "name": "Synology RT2600ac",
+            "price": "4700",
+            "category": "Wifi",
+            "description": "WiFi router - standard 802.11s\/b\/g\/n\/ac, maxim\u00e1ln\u00ed rychlost ",
+            "more_info": "U\u017eivatel\u00e9 s vysok\u00fdmi n\u00e1roky na rychlost a s\u00ed\u0165ov\u00e9 funkce ihned p\u0159ijdou na chu\u0165 tomuto v\u00fdkonn\u00e9mu \u0159e\u0161en\u00ed. Obsahuje komplexn\u00ed VPN, vy\u0161\u0161\u00ed zabezpe\u010den\u00ed, flexibiln\u00ed sd\u00edlen\u00ed soubor\u016f, a hlavn\u011b je po \u010dertech rychl\u00e9. D\u00edky spojen\u00ed MU-MIMO a nejnov\u011bj\u0161\u00edmu standardu 802.11.ac wave 2 umo\u017e\u0148uje RT2600ac kombinovan\u011b a\u017e 800 Mbps na frekvenci 2,4 GHz a 1733 na 5 GHz. Du\u00e1ln\u00ed p\u00e1smo WiFi p\u0159ipojen\u00ed umoc\u0148uje du\u00e1ln\u00ed WAN vstup, \u010d\u00edm\u017e lze p\u0159edej\u00edt v\u00fdpadk\u016fm jednoho z poskytovatel\u016f, dos\u00e1hnout internetov\u00e9 komunikace v tempu a\u017e 2 Gbps a optimalizovat datov\u00e9 toky a\u017e v 7. vrstv\u011b.",
+            "id": 20,
+            "properties": {
+                "Rychlost WiFi p\u0159enosu": " 2 530 Mb\/s",
+                "\u0160ifrov\u00e1n\u00ed": " WEP 64bit, WPA, WPA2, WPA3"
+            },
+            "image": ".\/images\/products\/10.png",
+            "images": [
+                ".\/images\/products\/10.png",
+                ".\/images\/products\/11.png"
+            ]
+        },
+        {
+            "name": "AlzaPower AluCore USB-A to USB-C 3.2 Gen 1",
+            "price": "299",
+            "category": "USB",
+            "description": "Datov\u00fd kabel SuperSpeed USB 5Gb\/s, Sync & Charge a\u017e 3A",
+            "more_info": "Vyrobili jsme pro v\u00e1s skute\u010dn\u011b odoln\u00fd nap\u00e1jec\u00ed a datov\u00fd kabel AlzaPower AluCore USB-C 3.2 Gen1, kter\u00fd jsme opat\u0159ili odoln\u00fdm kovov\u00fdm t\u011blem a pozlacen\u00fdmi konektory. Kabel pro za\u0159\u00edzen\u00ed s USB-C portem podporuje p\u0159enos dat rychlost\u00ed a\u017e 5 Gb\/s a rychlonab\u00edjen\u00ed.",
+            "id": 23,
+            "properties": {
+                "Maxim\u00e1ln\u00ed proud": "3 A",
+                "Podpora": "Sync & Charge"
+            },
+            "image": ".\/images\/products\/1.png",
+            "images": [
+                ".\/images\/products\/1_copy1.png",
+                ".\/images\/products\/2_copy1.png",
+                ".\/images\/products\/3_copy1.png"
+            ]
+        },
+        {
+            "name": "Kingston DataTraveler SE9 512GB",
+            "price": "899",
+            "category": "USB",
+            "description": "Flash disk 512 GB - USB 3.2 Gen 1 (USB 3.0), konektor USB-A,",
+            "more_info": "P\u0159esto\u017ee dne\u0161n\u00ed doba p\u0159in\u00e1\u0161\u00ed velk\u00e9 mno\u017estv\u00ed cloudov\u00fdch \u00falo\u017ei\u0161\u0165, nemus\u00edte m\u00edt v\u017edy k dispozici internetov\u00e9 p\u0159ipojen\u00ed. V tom p\u0159\u00edpad\u011b v\u00e1m jist\u011b svou slu\u017ebu ud\u011bl\u00e1 flash disk Kingston. Disponuje kapacitou 512 GB, kter\u00e1 je ur\u010dena t\u011bm nejn\u00e1ro\u010dn\u011bj\u0161\u00edm u\u017eivatel\u016fm. Umo\u017en\u00ed spravovat i velmi rozs\u00e1hl\u00e9 mno\u017estv\u00ed dat. Flash disk se k va\u0161emu za\u0159\u00edzen\u00ed p\u0159ipoj\u00ed p\u0159es konektor USB-A s rozhran\u00edm USB 3.2 Gen 1 (USB 3.0). P\u0159i nahr\u00e1v\u00e1n\u00ed souboru budete m\u00edt k dispozici rychlost 100 MB\/s. Pro p\u0159edstavu, ulo\u017een\u00ed 15GB Full HD filmu bude trvat cca 3,5 minuty a p\u0159enos 1GB souboru dokon\u010d\u00edte b\u011bhem 15 vte\u0159in. ",
+            "id": 24,
+            "properties": {
+                "Rychlost \u010dten\u00ed": "200 MB\/s",
+                "Rychlost z\u00e1pisu": " 100 MB\/s"
+            },
+            "image": ".\/images\/products\/37000209-thousand.png",
+            "images": [
+                ".\/images\/products\/DU352m7h5-02.png",
+                ".\/images\/products\/DU352m7h5-09.png"
+            ]
+        },
+        {
+            "name": "Samsung USB 3.2 512GB Bar Plus",
+            "price": "1699",
+            "category": "Flashdisk",
+            "description": "Flash disk 512 GB - USB 3.2 Gen 1 (USB 3.0), konektor USB-A,",
+            "more_info": "Flash disk Samsung BAR Plus 512 GB nab\u00eddne vysokou rychlost a stylov\u00e9 proveden\u00ed\r\nKlasika v modern\u00edm proveden\u00ed. D\u00edky sv\u00e9mu designu a v\u00fdjime\u010dn\u00e9 p\u0159enosov\u00e9 rychlosti se nov\u00e1 generace flash disk\u016f BAR Plus stane va\u0161\u00edm nepostradateln\u00fdm pomocn\u00edkem. Minimalistick\u00e9 kovov\u00e9 t\u011blo se skv\u011ble dr\u017e\u00ed a je uk\u00e1zkou stylu, kter\u00fd perfektn\u011b dopl\u0148uje vynikaj\u00edc\u00ed v\u00fdkon a spolehlivost.",
+            "id": 25,
+            "properties": {
+                "Rychlost \u010dten\u00ed": "400 MB\/s",
+                "Rozhran\u00ed": " USB 3.2 Gen 1 (USB 3.0)"
+            },
+            "image": ".\/images\/products\/37000405-thousand.png",
+            "images": [
+                ".\/images\/products\/1_copy3.png",
+                ".\/images\/products\/2_copy2.png",
+                ".\/images\/products\/3_copy2.png"
+            ]
+        },
+        {
+            "name": "Ubiquiti UniFi Switch USW-Lite-8-PoE",
+            "price": "3190",
+            "category": "Switch",
+            "description": "Switch dom\u00e1c\u00ed - centr\u00e1ln\u011b \u0159\u00edzen\u00fd kontrolerem, 8\u00d7 RJ-45, IGMP a DHCP",
+            "more_info": "Ubiquiti UniFi Switch USW-Lite-8-PoE\r\nUbiquiti UniFi Switch USW-Lite-8-PoE p\u0159edstavuje pln\u011b spravovateln\u00fd L2 switch s osmi gigabitov\u00fdmi ethernetov\u00fdmi porty. 4 porty z 8 podporuj\u00ed PoE+ nap\u00e1jen\u00ed 802.3af\/at s maxim\u00e1ln\u00edm v\u00fdkonem 30W\/port. Celkov\u00fd maxim\u00e1ln\u00ed v\u00fdkon PoE+ je v\u0161ak pouze 52 W. Kv\u016fli tomu se tento model hod\u00ed sp\u00ed\u0161e jako datov\u00fd s nap\u00e1jen\u00edm n\u011bkolika m\u00e1lo za\u0159\u00edzen\u00ed na okraji s\u00edt\u011b. Jeho maxim\u00e1ln\u00ed p\u0159ep\u00ednac\u00ed kapacita je 16 Gbps a propustnost pak 8 Gbps.\r\n\r\nKl\u00ed\u010dov\u00e9 vlastnosti smart switche Ubiquiti UniFi Switch USW-Lite-8-PoE\r\n8 ethernetov\u00fdch port\u016f RJ-45 (10\/100\/1000Mbit) z toho 4\u00d7 PoE+\r\nCelkov\u00fd maxim\u00e1ln\u00ed odb\u011br PoE+ \u010din\u00ed 52 W\r\nSmart switch Ubiquiti UniFi Switch USW-Lite-8-PoE vyu\u017e\u00edv\u00e1 k obsluze UniFi Network Controller\r\nP\u0159ep\u00ednac\u00ed kapacita 16 Gbps \/ celkov\u00e1 propustnost 8 Gbps",
+            "id": 26,
+            "properties": {
+                "Vrstva switchov\u00e1n\u00ed": " L2",
+                "Pokro\u010dil\u00e9 s\u00ed\u0165ov\u00e9 funkce": " LACP agregace linek, QoS (Quality of Service), VLAN"
+            },
+            "image": ".\/images\/products\/Ubiq23_014.png",
+            "images": [
+                ".\/images\/products\/Ubiq23_014_copy1.png",
+                ".\/images\/products\/Ubiq23_014-01.png"
+            ]
+        },
+        {
+            "name": "TP-Link TL-SG1016D",
+            "price": "1819",
+            "category": "Switch",
+            "description": "Switch dom\u00e1c\u00ed - do racku, unmanaged, 16\u00d7 RJ-45, Auto-MDI\/MDIX ",
+            "more_info": "Mimo\u0159\u00e1dn\u011b snadn\u00e1 obsluha\r\nAutomatick\u00e9 funkce zaji\u0161\u0165uj\u00ed bezprobl\u00e9movou instalaci (Plug and Play) tohoto gigabitov\u00e9ho switche. Nevy\u017eaduje \u017e\u00e1dnou konfiguraci. Funkce Auto MDI\/MDIX eliminuje pot\u0159ebu k\u0159\u00ed\u017een\u00fdch kabel\u016f. Funkce automatick\u00e9ho vyjedn\u00e1v\u00e1n\u00ed na ka\u017ed\u00e9m portu sn\u00edm\u00e1 rychlost p\u0159ipojen\u00ed s\u00ed\u0165ov\u00e9ho za\u0159\u00edzen\u00ed (bu\u010f 10, 100, anebo 1 000 Mbit\/s) a inteligentn\u011b ji p\u0159izp\u016fsobuje podle kompatibility pro optim\u00e1ln\u00ed v\u00fdkon.\r\n\r\nObsah balen\u00ed:\r\nSwitch\r\nNap\u00e1jec\u00ed kabel\r\nInstala\u010dn\u00ed manu\u00e1l\r\nKit pro instalaci do racku\r\nGumov\u00e9 no\u017eky",
+            "id": 27,
+            "properties": {
+                "Funkce": " Auto-MDI\/MDIX, Auto-negotiation",
+                "Pokro\u010dil\u00e9 s\u00ed\u0165ov\u00e9 funkce": " QoS (Quality of Service)"
+            },
+            "image": ".\/images\/products\/product_3804219.jpg",
+            "images": [
+                ".\/images\/products\/TP667k2_copy1.png",
+                ".\/images\/products\/TP667k2-01.png"
+            ]
+        }
+    ]
+}

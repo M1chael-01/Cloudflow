@@ -1,0 +1,92 @@
+body {
+    background: url("../../images/background/background.jpg") no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+}
+header{
+    display: none;
+}
+
+/* Container for the Form */
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 1000px;
+    max-width: 100%;
+    position: relative;
+    left: 65px;
+}
+
+/* Form Element Styling */
+.faq-form {
+    margin-bottom: 30px;
+}
+
+.faq-form label {
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.faq-form input,
+.faq-form textarea {
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 12px;
+    font-size: 1rem;
+    width: 100%;
+    transition: border-color 0.3s ease;
+}
+
+.faq-form input:focus,
+.faq-form textarea:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+/* Custom styling for property-row */
+/* Style for the properties section */
+.properties-row {
+display: flex;
+flex-wrap: wrap;
+gap: 1rem; /* Adjust spacing between property pairs */
+margin-bottom: 1rem;
+}
+
+.property-row {
+display: flex;
+gap: 1rem;
+flex-wrap: wrap; /* Allow properties to wrap in smaller viewports */
+width: 100%;
+}
+
+.property {
+flex: 1;
+min-width: 200px; /* Ensures inputs are not too narrow */
+margin-bottom: 1rem;
+}
+
+.property label {
+display: block;
+margin-bottom: 0.5rem;
+}
+
+.property input {
+width: 100%; /* Make input fields take full width */
+padding: 0.5rem;
+}
+
+
+/* Hide second part by default */
+#second-part {
+    display: none;
+}
+
+#second-part  img{
+    width: 200px;
+    height: 100px;
+}

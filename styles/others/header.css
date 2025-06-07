@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+header nav {
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 30px 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1001;
+}
+header nav ul li a {
+    margin:0 0px ;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 34px 34px 32px;
+    transition: all ease-in-out 0.55s;
+}
+header nav i#icon , header nav i.cart{
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+}
+
+@media(min-width:1300px) {
+header nav ul li a:hover , header nav ul li a.active{
+    background: #3f2b96;
+    font-weight:400;
+    color: #ffffff;
+    text-transform: uppercase;
+    right: 0;
+    top:0px;
+    width: 150px;
+    text-align: center;
+    border: none;
+}
+}
+header nav i#icon{
+    position: absolute;
+    font-size: 25px;
+    margin-top: -4px;
+}
+header nav ul li#cart a{
+    font-size: 25px;
+    position:absolute;
+    top:-4px;
+}
+header nav img{
+    position: absolute;
+    left: 10px;
+    height: 80px;
+    width: 240px;
+    top: -2px;
+}
+
+header nav a.logo{
+    position: absolute;
+    left: 15px;
+    text-decoration: none;
+    font-size: 37px;   
+    color: #171717;; 
+}
+header nav a.logo span{
+    /* font-size: 39px; */
+    /* color:#352775; */
+}
+header .btn#login{
+    position: absolute;
+    background: #ffc700;
+    background: #3f2b96;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    right: 0;
+    top:0px;
+    width: 185px;
+    text-align: right;
+    border: none;
+    padding: 30px 62px 30px;
+    font-size: 17px;
+}
+header .btn a{
+    font-size: 18.2px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+}
+header .btn#cart{
+    position: absolute;
+    background: #3f2b96;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: absolute;
+    right: 228px;
+    width: 165px;
+    text-align: right;
+    border: none;
+    padding: 30px 62px 30px;
+    font-size: 17px; 
+}
+header .btn#cart .number{
+    position: absolute;
+    margin: -20px -16px;
+    color: #ffc700;
+    font-weight: 600;
+}
+header button{
+    position: absolute;
+    background: #3f2b96;
+    font-weight:400;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 18.7px;
+    right: 0;
+    top:0px;
+    width: 170px;
+    text-align: center;
+    border: none;
+    padding: 28px 34px 28px;
+    cursor: pointer;
+}
+header button:hover{
+    background: #352775;
+}
+header a#cart .btn {
+    position: relative;
+    left: -400px;
+}
+header {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 30px 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;;
+}
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+header .logo {
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #333;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+header ul li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+}
+header  a.contact{
+  position: absolute;
+  right: 10px;
+  background: #3f2b96;;
+  font-weight: 800;
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 18px;
+  right: 0;
+  top:0px;
+   width: 160px; 
+  text-align: center;
+  border: none;
+  padding: 30px 0px 32px;
+  text-decoration: none;
+}
+header nav ul li a {
+    margin:0 0px ;
+    color: #000000;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 35px 28px 30.8px;
+    transition: all ease-in-out 0.55s;
+    font-weight: 500;
+}
+header nav ul li a.active , header nav ul li a:hover{
+    background: #ffc700;
+    background:#5830bb;;
+    font-weight: 500;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 130px;
+    text-align: center;
+    border: none; 
+}
+header nav  button a{
+    color: #fff;
+    text-decoration: none;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    z-index: 1;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li {
+    padding: 8px 16px;
+}
+
+.dropdown-menu li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #f1f1f1;
+}
+#menu{
+    display:none;
+    font-size: 24px;
+    cursor: pointer;
+    /* margin-bottom: 10px; */
+}
+
+.menu i{
+    font-size:24px;
+    cursor:pointer;
+}
+@media(max-width:1800px) {
+    header nav ul {
+        margin-left: -140px;
+    }
+}
+
+@media(max-width:1500px) {
+    header nav ul li a {
+        padding: 34px 10px 32px;
+        margin-left:5px;
+        font-size: 14px;
+    }
+    #logo-text{
+        font-size: 28px;
+    }
+    header nav ul {
+        margin-left: -240px;
+    }
+  
+   
+   
+}
+
+@media(max-width:1409px) {
+
+    header nav ul li a {
+        padding: 34px 10px 32px;
+        margin-left:30px;
+    }
+    header .btn#cart {
+
+        right: 190px;
+    }
+}
+/* By default, the navigation menu is hidden on smaller screens */
+@media(max-width: 1350px) {
+    header nav ul {
+        display: none;
+        height: 70vh;
+        width: 400px;
+        margin-left: 1rem;
+        /* width:100%; */
+        flex-direction: column;
+        gap: 0;
+        background-color: #fff;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        z-index: 1001;
+
+    }
+    header nav ul li {
+        text-align: center;
+    }
+    header nav ul li a{
+        line-height: 20px;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+    /* header nav ul li a? */
+    header nav ul li a:hover , header nav ul li a.active{
+        /* background: none; */
+        color: #fefefe;
+        padding: 34px 34px 32px;
+        width: 100%;
+        /* font-weight: 800; */
+    }
+}
+
+/* The menu icon (hamburger) */
+#menu {
+    display: none; /* Initially hidden */
+    font-size: 24px;
+    cursor: pointer;
+    position: relative;
+    left: -150px;
+}
+
+
+.show-menu {
+    display: flex !important;
+}
+
+/* When the screen is small, the menu icon will be visible */
+@media(max-width: 1350px) {
+    #menu {
+        display: block;
+    }
+}
+
+/* When the menu is active (class is added), show the menu */
+.show-menu {
+    display: flex !important;
+}
+
+@media(max-width:700px) {
+    #menu{
+        display:block;
+        position: relative;
+        left: -80px;
+       
+    }
+}
+@media(max-width:628px) {
+    #menu{
+        display:block;
+        position: relative;
+        left: -270px;
+        top: -25px;
+    }
+    .logo{
+        position: relative;
+        top: 35px;
+    }
+}
+
+@media(max-width:585px) {
+    header nav ul li a.active{
+        width: 50px;
+    }
+    #logo-text{
+        width: 20%;
+        line-height: 30px;
+        text-align: center;
+    }
+    #menu{
+        display:block;
+        position: relative;
+        left: -200px;
+        top: -25px;
+    }
+}
+
+@media(max-width:535px) {
+    #logo-text{
+      font-size: 24px;
+      text-align: left;
+      margin-left: -10px;
+    }
+    header .btn#login{
+        padding: 30px 32px 30px;
+        width: 160px;
+        margin-left: -200px;
+       
+    }
+    header nav i#icon , header nav i.cart{
+      font-size: 24px;
+      margin-left: -18px;
+    }
+}
+@media(max-width:445px) {
+    #logo-text{
+        display: none;
+    }
+    #menu{
+        display:block;
+        position: relative;
+        margin-left: 18px;
+        margin-top: 25px;
+       
+    }
+}

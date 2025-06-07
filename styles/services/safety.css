@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background Section */
+.security {
+    background: url("../../images/services/security.jpg") no-repeat center center/cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+    background-attachment: fixed;
+    background-position:top;;
+    color: white;
+    padding: 20px;
+}
+
+.security::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.security main {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.security h2, .security h3, .security p , .cta-button  {
+    opacity: 0;
+    animation: swipeInLeft 0.7s forwards ease-out;
+}
+
+.security h2 {
+    animation-delay: 0.5s; /* Delay for h2 */
+    font-size: 60px;
+    margin-bottom: 18px;
+    font-weight: bold;
+    width: 90%;
+    line-height: 70px;
+}
+
+.security h3 {
+    animation-delay: 1s; /* Delay for h3 */
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.security p {
+    animation-delay: 1.5s; /* Delay for paragraph */
+    font-size: 19px;
+    line-height: 1.6;
+    margin-bottom: 13px;
+    animation-delay: 0.6s;
+}
+
+.security button{
+    background-color: #5830bb;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    transition: background-color 0.3s;
+}
+
+
+/* Sliding animation for the text */
+/* Animation for swipe-in from left */
+@keyframes swipeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+/* Form Styles */
+.contact-form {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 1400px;
+    margin: 40px auto;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    opacity: 0;
+    transform: translateY(20px);
+    animation: formAppear 1s forwards 0.5s;
+}
+
+.contact-form h3 {
+    text-align: center;
+font-size: 32px;
+margin: 0 0 14px;
+}
+
+/* Animation for form appearance */
+@keyframes formAppear {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+.contact-form textarea{
+    height: 80px;
+}
+
+.contact-form button {
+    background-color: #5830bb;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+
+.checkbox-group input {
+    margin: 8px 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.checkbox-group label {
+    font-size: 16px;
+    line-height: 8px;
+    cursor: pointer;
+    position: relative;
+    top: -4px;
+
+}
+
+/* Progress Bar */
+.progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.progress-bar span {
+    display: block;
+    height: 10px;
+    background-color: #5830bb;
+    border-radius: 20px;
+    width: 33%;
+}
+
+.total-price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.info-link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.link a {
+    margin: 6px 0;
+    font-size: 18px;
+    color: #5830bb;
+    text-decoration: none;
+}
+
+.info-link a:hover {
+    text-decoration: underline;
+}
+
+/* Order Form */
+#order-form {
+display: flex;
+justify-content: center;
+padding: 50px 20px;
+position: relative; /* Ensure the ::before element is positioned relative to the form */
+background: url("");
+background-position: center;
+background-size: cover;
+}
+
+
+
+.order-form {
+   border: 6px solid rgb(245, 245, 246);
+
+    background:rgb(255, 255, 255);
+    /* background-color: white; */
+    max-width: 1200px;
+    padding: 30px;
+    border-radius: 8px;
+    /* transform: scale(1.1); */
+    box-shadow: 0px 10px 30px rgba(248, 247, 247, 0.8);
+    width: 100%;
+    transform: translateY(20px);
+    animation: formAppear 1s forwards 0.5s;
+}
+
+
+
+.order-form .step {
+    display: none;
+}
+
+.order-form .step.active {
+    display: block;
+}
+
+.order-form button {
+    background-color: #5830bb;
+    color: white;
+    font-size: 1.1rem;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 500px;
+    transition: background-color 0.3s;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.order-form .link{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.order-form button:hover {
+    background-color: #0056b3;
+}
+#step-2 .flex , #step-3 .flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#step-2 .flex input ,  #step-3 .flex input{
+    width: 50%;
+    display: inline;
+    margin: 0 10px;
+    margin-bottom: 15px;
+}
+#step-2  textarea{
+    width: 50%;
+    margin: 12px auto;
+    display: block;
+    margin-bottom: 40px;
+    resize: none;
+    outline: none;
+}
+.order-form iframe{
+    width: 80%;
+    height: 280px;
+    margin: 9px auto;
+    margin-bottom: 10px;
+    display: block;
+
+}
+select{
+    margin-top: 6px;
+}
+
+
+ /* Animation for form appearance */
+ @keyframes formAppear {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+footer{
+    position: relative;
+}
+
+#check{
+   
+
+}
+#step-4 img{
+    width:400px;
+    height: 400px;
+}
+#check div{
+    margin: 10px;
+}
+#check h4{
+    font-size: 22px;
+}
+
+ #image{
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 400px;
+
+    /* top: -400pxq; */
+ }
+
+
+@media(max-width:570px) {
+    .contact-form button {
+        width: 95%;
+    }
+  
+}

@@ -8,7 +8,7 @@ The project was developed using **PHP, JavaScript, CSS, and MySQL**, and demonst
 
 ---
 
-## 🚀 Project Highlights
+##  Project Highlights
 
 - Designed and implemented a **relational database schema** for users, files, products, and orders.
 - Built a **custom authentication system** (registration, login, session handling).
@@ -34,7 +34,7 @@ The project focuses on combining backend logic, database management, and a funct
 
 ## Features
 
-### 👤 User Features
+###  User Features
 - User registration and login
 - Personal dashboard
 - File management (upload, view, download)
@@ -47,7 +47,7 @@ The project focuses on combining backend logic, database management, and a funct
 - Create orders
 - Order history for each user
 
-### 🛠️ Admin Panel
+###  Admin Panel
 Administrators have access to extended functionality:
 - User management
 - Product management
